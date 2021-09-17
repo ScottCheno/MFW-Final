@@ -1,0 +1,178 @@
+html {
+    background: url(/IMG/final-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+ .nav {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 22px;
+ }
+ .nav a:hover {
+     font-size: 22px;
+     font-family: 'Reem Kufi' sans-serif;
+     color: grey !important;
+ }
+ .img-fluid {
+     width: 55%;
+     height: auto;
+ }
+ @media (min-width: 1399px) {
+ .container2 {
+     font-family: 'Quicksand', sans-serif;
+     position: fixed;
+     left: 15%;
+     top: -20%;
+ }
+}
+@media (min-width: 600px){
+    .container2 {
+        font-family: 'Quicksand', sans-serif;
+        position: fixed;
+        left: 15%;
+        top: 20%;
+}
+}
+@media (max-width: 600px){
+    .container2 {
+        font-family: 'Quicksand', sans-serif;
+        position: fixed;
+        left: 3%;
+        top: 35%;
+}
+}
+ .page-footer {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    text-decoration: none;
+}
+.fab:hover {
+    color: grey;
+    text-decoration: none;
+}
+.contact-section {
+    font-family: 'Quicksand', sans-serif;
+    height: 0px;
+    margin-top: 500px;
+    background-image: linear-gradient(#1398AB, #13AB5F);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info {
+    color: white;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+    max-height: 950px;
+}
+.contact-info i {
+    margin-right: 20px;
+    font-size: 35px;
+
+}
+.contact-form {
+    max-height: 700px;
+    max-width: 700px;
+    margin-right: 50px;
+}
+.contact-info, .contact-form {
+    flex: 1;
+}
+.contact-form h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-form .text-box {
+    background:linear-gradient(#1398AB, #13AB5F);
+    color: white;
+    border: none;
+    width:  calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+.contact-form .text-box:first-child {
+    margin-right: 15px;
+}
+.contact-form textarea {
+    background:linear-gradient(#1398AB, #13AB5F);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+.contact-form .send-btn {
+    float: right;
+    background: linear-gradient(#1398AB, #13AB5F);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+.contact-form .send-btn:hover {
+    background: linear-gradient(#13AB5F, #1398AB) ;
+}
+@media screen and (max-width: 950px) {
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-info, .contact-form{
+        margin: 30px 50px;
+    }
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+.accordion {
+    margin-top: 6.5%;
+}
+.carousel {
+    margin-bottom: 100px;
+    height: 100px;
+}
+.carousel-item {
+    height: 750px;
+}
+.finalthumb {
+    height: 500px;
+    width: 500px;
+}
+.githublink {
+    color: white;
+    text-decoration: none;
+}
+.githublink:hover {
+    color:grey;
+    text-decoration: none;
+}
